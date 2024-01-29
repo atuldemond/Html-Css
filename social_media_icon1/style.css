@@ -1,0 +1,77 @@
+*{
+    font-family: monospace;
+}
+ /* socail media edit */
+
+#text{
+  font-weight: bolder;
+  font-size: larger;
+  padding: 0px;
+  margin-top: 10px;
+  font-size: 30px;
+ 
+  
+
+}
+/* ------------------ */
+
+/* socail media icon css */
+
+.main{
+ width: 80%;
+ height: 500px;
+ border: 2px solid rgba(0, 0, 0, 0);
+ margin: auto;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.social{
+width: 500px;
+height: 150px;
+border: 2px solid rgba(255, 0, 0, 0);
+border-radius: 10px;
+box-shadow: 10px 10px 8px black;
+background-color: rgba(255, 255, 255, 0.051);
+
+}
+
+.social ul{
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin-right:30px ;
+}
+
+
+
+
+.social ul li a i{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid rgba(255, 0, 0, 0);
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 5px black;
+    
+    
+
+}
+
+.social ul li .fa{
+    color: rgb(0, 0, 0);
+}
+
+/* ---------------------- */
+
+/* this hover effect */
+
+
+.social ul li .fa:hover{
+ transition: 0.2s ease-out;
+ transform: scale(1.3);
+ box-shadow: 0px 8px 8px black;
+}
