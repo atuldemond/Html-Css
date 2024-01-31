@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+
+.main ul{
+    margin: auto;
+    height: 200px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(255, 0, 0, 0);
+    margin-top: 200px;
+
+  
+}
+
+.main ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width: 65px;
+    height: 65px;
+    background-color: black;
+    border-radius: 50px;
+   
+   
+}
+
+ul li  a{
+  color: rgb(255, 255, 255);
+}
+
+.main ul li a:hover{
+transition: 0.6s ease-in-out;
+
+transform: scale(1.2);
+
+
+}
+.main ul li:hover{
+
+transition: 0.6s ease-in-out;
+transform: scale(1.2);
+background-color: white;
+
+}
+
+.facebook:hover{
+    color: #000000;
+    border-radius: 50px;
+    background-color: white;
+  
+}
+
+
+
+
+
+
+
+
