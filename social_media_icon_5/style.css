@@ -1,0 +1,77 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:  monospace;
+}
+
+.main{
+    width: 80%;
+    height: 600px;
+    margin: auto;
+    border: 2px solid rgba(255, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+
+}
+ul li{
+width: 60px;
+height: 60px;
+border: 2px solid rgba(255, 0, 0, 0);
+background-color: rgb(0, 0, 0);
+list-style: none;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 10px;
+transition: all 1s ease-out;
+box-shadow: 0px 10px 8px black;
+}
+
+.face a{
+ 
+    color: rgb(255, 255, 255);
+
+   
+
+}
+
+ul li:hover{
+    
+    transform: scale(1.2x);
+    position: relative;
+    bottom: 20px;
+}
+
+.face .youtube:hover{
+ 
+    color: rgb(255, 0, 0);
+
+   
+
+}
+
+.face .facebook:hover{
+ 
+    color: rgb( 24, 119, 242);
+
+   
+
+}
+
+.face .twitter:hover{
+ 
+    color: rgb( 29, 161, 242);
+
+   
+
+}
+
+
