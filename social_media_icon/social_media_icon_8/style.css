@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family:  monospace;
+  
     font-weight: bolder;
 
 }
@@ -48,6 +48,10 @@
   
 
 }
+
+
+
+/* --------------------------------------hover Effects--------------- */
 .social:hover{
     transition: 5s ease;
     border-top: 0px ;
@@ -69,7 +73,7 @@
 
 
 
-
+/* ---------------------social medica css------------------- */
 
 
 
