@@ -1,0 +1,99 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  background-color: rgb(255, 255, 255);
+}
+#main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+  flex-wrap: wrap;
+  padding-top: 2vw;
+}
+.box_1 {
+  max-width: 30vw;
+  border: 1px solid rgb(0, 0, 0);
+  box-sizing: border-box;
+  padding: 2vw;
+  border-radius: 0.5vw;
+  background-color: rgb(255, 255, 0);
+  transition: all 0.1s ease-in;
+}
+.box_1:hover {
+  transform: scale(0.9);
+}
+.box_1 .image {
+  width: 25vw;
+  height: 20vw;
+  background: url("./images/krishna_ji.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0.5vw;
+}
+.box_1 .title {
+  font-size: 2vw;
+  text-align: center;
+  padding: 1vw;
+}
+.box_1 p {
+  text-align: justify;
+  padding: 1%;
+}
+
+.box_1 button {
+  text-decoration: none;
+  padding: 1vw;
+  margin-top: 1vw;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 0.5vw;
+}
+
+@media (max-width: 768px) {
+  #main {
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+    background-color: black;
+  }
+  .box_1,
+  .box_2,
+  .box_3 {
+    max-width: 80vw;
+    padding: 5vw 10vw 5vw 10vw;
+    background-color: rgb(255, 255, 0);
+  }
+  .box_1 .title {
+    font-size: 3vh;
+    text-align: center;
+    padding: 1vh;
+  }
+  .box_1 p {
+    text-align: justify;
+    padding: 1%;
+  }
+
+  .box_1 button {
+    text-decoration: none;
+    padding: 2vh;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 0.5vh;
+    margin-top: 1vh;
+  }
+
+  .box_1 .image {
+    width: 60vw;
+    height: 30vw;
+    background: url("./images/krishna_ji.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
